@@ -1,87 +1,174 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adithy Shibu - Portfolio</title>
-</head>
 <body>
 
-    <header>
-        <h1>Adithy Shibu</h1>
-        <p><strong>Electronics and Instrumentation Engineering Student</strong></p>
-        <p>Federal Institute of Science and Technology (FISAT)</p>
-        
-        <nav>
-            <a href="#about">About Me</a> | 
-            <a href="#projects">Projects</a> | 
-            <a href="#skills">Skills & Media</a> | 
-            <a href="#contact">Contact Me</a>
-        </nav>
-    </header>
+<header>
+    <h1>ADITHY SHIBU</h1>
+    <p>Engineering Student Portfolio</p>
+</header>
 
-    <hr>
+<hr>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="profile.jpg" alt="Adithy Shibu Profile Photo" width="200" height="200">
-        
-        <p>
-            Hello! My name is Adithy Shibu, and I am currently pursuing my degree in Electronics and Instrumentation Engineering at the Federal Institute of Science and Technology (FISAT). Deeply fascinated by how hardware interfaces with software to solve real-world problems, my academic journey is centered around automation, sensor technologies, and embedded systems. I believe that instrumentation is the bridge between physical phenomena and digital intelligence.
-        </p>
-        <p>
-            As an engineering student, I actively seek out hands-on opportunities to apply classroom theories to practical applications. Whether it is designing efficient agricultural systems or prototyping autonomous robotics, I enjoy the challenge of troubleshooting complex circuits and optimizing system performance to create sustainable technology.
-        </p>
-    </section>
+<main>
 
-    <hr>
+<section>
+    <h2>Welcome</h2>
+    <p>Hello! I am Adithy Shibu...</p>
+</section>
 
-    <section id="projects">
-        <h2>Academic & Engineering Projects</h2>
-        <p>Below is a summary of the key engineering projects I have developed during my studies, focusing on automation, renewable energy application, and robotics.</p>
+<section>
+    <h2>Personal Information</h2>
 
-        <table border="1" cellpadding="10" cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Project Title</th>
-                    <th>Domain</th>
-                    <th>Core Technologies Used</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Solar Copra Dryer</strong></td>
-                    <td>Renewable Energy & Automation</td>
-                    <td>Temperature Sensors, Microcontrollers, Solar Thermal Collectors</td>
-                    <td>
-                        An automated agricultural system designed to optimize the drying process of copra (dried coconut) using sustainable solar energy. The system monitors internal humidity and temperature levels via sensors to regulate airflow, ensuring high-quality yield while significantly reducing traditional drying times and eliminating dependence on fossil fuels.
-                    </td>
-                </tr>
-                <tr>
-                    <td><strong>Rover Project</strong></td>
-                    <td>Robotics & Embedded Systems</td>
-                    <td>Motor Drivers, RF/Bluetooth Modules, Microcontrollers, Chassis Mechanics</td>
-                    <td>
-                        A prototype robotic rover engineered for terrain exploration and remote monitoring. Equipped with an onboard microcontroller, sensor arrays, and a wireless communication module, this rover can navigate obstacles and transmit real-world environmental telemetry back to a base station in real-time.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Adithy Shibu</td>
+        </tr>
+        <tr>
+            <th>College</th>
+            <td>Federal Institute of Science and Technology</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Kerala, India</td>
+        </tr>
+    </table>
+</section>
 
-    <hr>
+<section>
+    <h2>Career Objective</h2>
 
-    <section id="skills">
-        <h2>Technical Skills & Multimedia Demonstrations</h2>
-        
-        <h3>Core Skills</h3>
-        <ul>
-            <li>Circuit Design and Simulation</li>
-            <li>Microcontroller Programming (Arduino/AVR)</li>
-            <li>Process Control & Instrumentation</li>
-            <li>Sensors and Signal Conditioning</li>
-        </ul>
+    <blockquote>
+        "To apply engineering knowledge for solving real-world problems
+        through innovation and sustainable technology."
+    </blockquote>
+</section>
 
-        <h3>Project Media Showcase</h3>
-        <p>Explore the audio-
+<section>
+    <h2>Project Showcase</h2>
+
+    <figure>
+        <img src="solar.jpg" width="300">
+        <figcaption>Solar Copra Dryer</figcaption>
+    </figure>
+
+    <p>
+        The Solar Copra Dryer uses solar energy...
+    </p>
+
+    <figure>
+        <img src="rover.jpg" width="300">
+        <figcaption>Rover Project</figcaption>
+    </figure>
+
+    <p>
+        The Rover Project is designed for...
+    </p>
+</section>
+
+<section>
+    <h2>Areas of Interest</h2>
+
+    <dl>
+        <dt>Robotics</dt>
+        <dd>Design and development of intelligent machines.</dd>
+
+        <dt>Renewable Energy</dt>
+        <dd>Utilizing clean energy resources.</dd>
+
+        <dt>Electronics</dt>
+        <dd>Studying circuits and embedded systems.</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>My Weekly Schedule</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Lab Work</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Project Development</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Multimedia Corner</h2>
+
+    <audio controls>
+        <source src="intro.mp3">
+    </audio>
+
+    <br><br>
+
+    <video width="400" controls>
+        <source src="project.mp4">
+    </video>
+</section>
+
+<section>
+    <h2>Academic Details</h2>
+
+    <ul>
+        <li>B.Tech Student at FISAT</li>
+        <li>Interested in Robotics</li>
+        <li>Project-Based Learning</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+
+    <details>
+        <summary>Click to View</summary>
+
+        <ol>
+            <li>Completed Rover Project</li>
+            <li>Presented Solar Copra Dryer Model</li>
+            <li>Participated in Technical Workshops</li>
+        </ol>
+    </details>
+</section>
+
+<section>
+    <h2>Visitor Feedback</h2>
+
+    <form>
+
+        <label>Name:</label><br>
+        <input type="text"><br><br>
+
+        <label>Rate this Portfolio:</label><br>
+
+        <select>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+        </select>
+
+        <br><br>
+
+        <textarea rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+</section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>Created by Adithy Shibu</p>
+</footer>
+
+</body>
